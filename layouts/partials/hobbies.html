@@ -1,6 +1,10 @@
 <section class="thirteen columns">
   <h1>{{ .Site.Data.hobbies.name }}</h1>
+  {{ range .Site.Data.hobbies.source }}
   <article>
-    <p>{{ delimit .Site.Data.hobbies.source ", " }}</p>
+  	<header>
+    <h1>{{ .title }}</h1>
+    </header>
   </article>
+  {{ end }}
 </section>
