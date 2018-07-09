@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
 
 body {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
@@ -9,7 +9,7 @@ body {
     border-bottom: 5px solid #27A822;
 }
 
-.container {
+.container_web {
     margin-top: 50px;
 }
 
@@ -49,11 +49,11 @@ header > h1 {
     margin-bottom: 20px;
 }
 
-.container > header p, .container > header address {
+.container_web > header p, .container_web > header address {
     margin-bottom: 20px;
 }
 
-.container > header p:last-child {
+.container_web > header p:last-child {
     margin-bottom: 20px;
 }
 
@@ -127,7 +127,7 @@ em {
         line-height: 21pt;
     }
 
-    .container > header {
+    .container_web > header {
         font-size: 80%;
         line-height: 160%;
     }
