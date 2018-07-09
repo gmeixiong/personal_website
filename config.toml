@@ -13,7 +13,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "profile.png"
   author = "Gerry Meixiong"
-  description = "Describe your website"
+  description = "I'm Gerry Meixiong, a software engineer at GRAIL interested in bioinformatics, esports, and all things entertainment. Take a look at my resume. Feel free to contact me if you have interesting ideas or want to talk politics, games, or music. update with interests, hobbies, activities, link to cv and projects"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
