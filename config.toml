@@ -1,6 +1,7 @@
 baseurl = "//gmeixiong.com/"
 languageCode = "en-US"
 title = "Gerry Meixiong"
+layoutdir = "layouts"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -14,7 +15,17 @@ theme = "hugo-sustain"
   avatar = "gerry.jpg"
   author = "Gerry Meixiong"
   description = "I'm Gerry Meixiong, a software engineer at GRAIL interested in bioinformatics, esports, and all things entertainment. Take a look at my resume. Feel free to contact me if you have interesting ideas or want to talk politics, games, or music. update with interests, hobbies, activities, link to cv and projects"
-
+  email = "gmeixiong@gmail.com"
+  email_full = "mailto:gmeixiong@gmail.com"
+  website = "www.gmeixiong.com"
+  website_full = "https://www.gmeixiong.com/"
+  github = "gmeixiong"
+  tel = "+1 (706) 993-7685"
+  tel_full = "+17069937685"
+  address = "531 Lasuen Mall #16407"
+  postcode = "94305"
+  city = "Stanford, CA"
+  country = "United States"
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
