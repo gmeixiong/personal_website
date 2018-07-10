@@ -14,7 +14,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "gerry.jpg"
   author = "Gerry Meixiong"
-  description = "I'm Gerry Meixiong, a software engineer at GRAIL interested in bioinformatics, esports, and all things entertainment. Take a look at my resume. Feel free to contact me if you have interesting ideas or want to talk politics, games, or music. update with interests, hobbies, activities, link to cv and projects"
+  description = "Gerry Meixiong's personal website."
   email = "gmeixiong@gmail.com"
   email_full = "mailto:gmeixiong@gmail.com"
   website = "www.gmeixiong.com"
