@@ -1,0 +1,11 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.publications.name }}</h1>
+  {{ range .Site.Data.publications.source }}
+  <article>
+    <header>
+      <h1><a href="https://www.ncbi.nlm.nih.gov/pubmed/24371089">{{ .title }}</a></h1>
+      <span>{{ .journal }}</span>
+    </header>
+  </article>
+  {{ end }}
+</section>
