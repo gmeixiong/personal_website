@@ -1,0 +1,10 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.coursework.name }}</h1>
+  {{ range .Site.Data.coursework.source }}
+  <article>
+  	<header>
+    <h1>{{ .title }}</h1>
+    </header>
+  </article>
+  {{ end }}
+</section>
