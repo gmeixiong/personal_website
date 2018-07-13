@@ -1,7 +1,7 @@
 name: Coursework
 source:
   - title: Music (Electronic, Hip-hop, Rock, Pop)
+    course: Hello
+
   - title: Movies
-  - title: Working Out
-  - title: TV (Game of Thrones, Westworld, Breaking Bad)
-  - title: Videogames (League of Legends, Elder Scrolls)
+    course: hello
