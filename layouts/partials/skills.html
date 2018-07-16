@@ -1,9 +1,6 @@
 <section class="thirteen columns">
   <h1>{{ .Site.Data.skills.name }}</h1>
   <article>
-    <header>
-      <h1>{{ .Site.Data.skills.title }}</h1>
-    </header>
     {{ range .Site.Data.skills.source }}
     <p>
       {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
